@@ -1,11 +1,12 @@
 #pragma once
 
 #include <common/protocol.h>
-
 #include <common/enums.h>
+
 #include <db/mysql_query.h>
 
 #include <memory>
+
 
 class config_t;
 

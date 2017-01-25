@@ -1,7 +1,7 @@
 #include <common/StdAfx.h>
-#include "net_server.h"
 
-#include "client_handler.h"
+#include <server/client_handler.h>
+#include <server/net_server.h>
 
 #include <common/asserts.h>
 #include <files/config.h>

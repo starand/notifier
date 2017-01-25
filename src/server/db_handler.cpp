@@ -1,10 +1,10 @@
 #include <common/StdAfx.h>
-#include "db_handler.h"
 
-#include "queries.inc.h"
+#include <server/db_handler.h>
+#include <server/queries.inc.h>
 
-#include <files/config.h>
 #include <db/mysql_connection.h>
+#include <files/config.h>
 #include <utils/strutils.h>
 
 #include <json/value.h>

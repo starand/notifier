@@ -1,8 +1,8 @@
 #include <common/StdAfx.h>
-#include "client_handler.h"
 
 #include <common/protocol.h>
-#include "db_handler.h"
+#include <server/client_handler.h>
+#include <server/db_handler.h>
 
 #include <files/config.h>
 #include <utils/strutils.h>

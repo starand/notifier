@@ -1,9 +1,9 @@
 #include <common/StdAfx.h>
-#include "notifier_app.h"
 
-#include "client_handler.h"
-#include "db_handler.h"
-#include "net_server.h"
+#include <server/client_handler.h>
+#include <server/db_handler.h>
+#include <server/net_server.h>
+#include <server/notifier_app.h>
 
 #include <files/config.h>
 #include <files/fileutils.h>
