@@ -1,10 +1,10 @@
 #include <common/StdAfx.h>
 
+#include <common/config.h>
 #include <common/protocol.h>
 #include <server/client_handler.h>
 #include <server/db_handler.h>
 
-#include <files/config.h>
 #include <utils/strutils.h>
 
 #include <json/writer.h>

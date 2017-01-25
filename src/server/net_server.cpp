@@ -1,10 +1,10 @@
 #include <common/StdAfx.h>
 
+#include <common/config.h>
 #include <server/client_handler.h>
 #include <server/net_server.h>
 
 #include <common/asserts.h>
-#include <files/config.h>
 #include <net/xsocket.h>
 
 #include <json/value.h>

@@ -1,6 +1,6 @@
 TARGET = notifier
 
-FW = ../../../cpp_fw/
+FW = ../../../cpp_fw
 TP = ../../../cpp/3rdparty
 SRC = ..
 BIN = ../../bin
@@ -28,7 +28,7 @@ SOURCES = \
 
 OBJECTS = $(subst .cpp,.o, $(SOURCES))
 
-INCLUDES =
+INCLUDES = \
 	-I.. \
 	-I$(FW) \
 	-I$(FW)/types \
