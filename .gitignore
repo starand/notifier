@@ -1,3 +1,4 @@
 bin/notifier
 bin/notifier.log
+*.o
 

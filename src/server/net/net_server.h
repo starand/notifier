@@ -9,14 +9,13 @@ class client_handler_t;
 class config_t;
 class socket_t;
 
-
 class net_server_t : public thread_base_t
 {
 public:
     net_server_t( const config_t& config, client_handler_t& handler );
     ~net_server_t( );
 
-public:
+public: // thread_base_t
     virtual void do_run( );
     virtual void do_stop( );
 

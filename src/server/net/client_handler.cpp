@@ -2,8 +2,8 @@
 
 #include <common/config.h>
 #include <common/protocol.h>
-#include <server/client_handler.h>
-#include <server/db_handler.h>
+#include <db/db_handler.h>
+#include <net/client_handler.h>
 
 #include <utils/strutils.h>
 

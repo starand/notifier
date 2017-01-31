@@ -7,10 +7,12 @@ BIN = ../../bin
 
 SOURCES = \
 	$(SRC)/common/config.cpp \
-	$(SRC)/server/client_handler.cpp \
-	$(SRC)/server/db_handler.cpp \
-	$(SRC)/server/net_server.cpp \
-	$(SRC)/server/notifier_app.cpp \
+	$(SRC)/server/app/notifier_app.cpp \
+	$(SRC)/server/db/db_handler.cpp \
+	$(SRC)/server/net/client_handler.cpp \
+	$(SRC)/server/net/net_server.cpp \
+	$(SRC)/server/web/finance_tracker.cpp \
+	$(SRC)/server/web/web_page.cpp \
 	$(FW)/common/logger.cpp \
 	$(FW)/utils/threading/threading.cpp \
 	$(FW)/utils/threading/threading_linux.cpp \
@@ -29,7 +31,9 @@ SOURCES = \
 OBJECTS = $(subst .cpp,.o, $(SOURCES))
 
 INCLUDES = \
+	-I. \
 	-I.. \
+	-I../common \
 	-I$(FW) \
 	-I$(FW)/types \
 	-I$(FW)/common \

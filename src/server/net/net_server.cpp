@@ -1,8 +1,8 @@
 #include <common/StdAfx.h>
 
 #include <common/config.h>
-#include <server/client_handler.h>
-#include <server/net_server.h>
+#include <net/client_handler.h>
+#include <net/net_server.h>
 
 #include <common/asserts.h>
 #include <net/xsocket.h>
@@ -24,7 +24,6 @@ net_server_t::net_server_t( const config_t& config, client_handler_t& handler )
 
 net_server_t::~net_server_t( )
 {
-
 }
 
 //--------------------------------------------------------------------------------------------------
